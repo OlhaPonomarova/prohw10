@@ -1,0 +1,68 @@
+.container {
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+}
+
+.title {
+    border: 1px solid rgb(184, 178, 178);
+    background-color: rgb(240, 235, 235);
+    position: relative;
+    padding: 5px;
+}
+
+.img {
+    width: 25px;
+    position: absolute;
+    right: 5px;
+    transform: rotate(-90deg);
+}
+
+
+.accordeon-content {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(184, 178, 178);
+    background-color: rgb(240, 235, 235);
+    padding: 10px;
+}
+
+.accordeon-table {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordeon-avatar {
+    margin-top: 10px;
+    margin-bottom: 17px;
+    border: 1px solid rgb(184, 178, 178);
+    width: 160px;
+    text-align: center;
+}
+
+.accordeon-item {
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 160px;
+    border: 1px solid rgb(184, 178, 178);
+    list-style: none;
+    background-color: rgb(240, 235, 235);
+}
+
+.hide {
+    max-height: 0;
+    opacity: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.show {
+    max-height: 300px;
+    opacity: 1;
+    margin: 10px 0px;
+    transition: 0.3s;
+}
+
+.img-button {
+    transform: rotate(0);
+}
